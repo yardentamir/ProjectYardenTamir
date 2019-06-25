@@ -1,0 +1,234 @@
+﻿body {
+    direction:rtl;
+}
+
+#GridView1 {
+    background-color: rgb(247, 237, 234) !important;
+}
+
+#Container {
+    margin: auto;
+    width: 87%;
+    padding: 40px;
+    height: 339px;
+    position: relative;
+    top: 0px;
+    right: 8px;
+}
+
+#settingDiv {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(226,188,179);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    direction: rtl;
+    display: block;
+    direction: rtl;
+    z-index: 3;
+    top: -15px;
+    right: 0px;
+    margin-top: 12px;
+}
+
+    /*כותרת משחק*/
+    header > a > p {
+        font-family: 'Segoe UI', 'Segoe UI';
+        font-size: 12pt;
+        font-weight: 600;
+        position: relative;
+        color: black;
+        display: inline-block;
+        direction: rtl;
+        margin-right: 20px;
+    }
+
+/*לוגו*/
+#logo {
+    width: 50px;
+    height: 40px;
+    display: inline;
+    margin-bottom: -21px;
+    margin-left: -29px;
+    margin-top: -22px;
+    padding: 8px 15px;
+    direction: rtl;
+}
+
+#NameGame {
+    margin-bottom: 10px;
+}
+
+#howPlay {
+    width: 565px;
+    margin-top: 50px;
+}
+
+
+nav {
+    margin-top: -70px;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+    nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: left;
+            direction: rtl;
+        }
+
+            nav ul li a {
+                display: block;
+                color: rgb(30, 104, 177);
+                text-align: center;
+                padding: 18px 10px;
+                font-weight: 400;
+                font-size: 12pt;
+                font-family: 'Assistant', sans-serif;
+                direction: rtl;
+                text-decoration: none;
+                color:black;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-family: 'Assistant', sans-serif;
+                    direction: rtl;
+                    text-decoration: none;
+                }
+
+.popUp {
+    background-color: white;
+    width: 400px;
+    position: fixed;
+    top: 60px;
+    z-index: 4;
+    text-align: center;
+    width: 700px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 25px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    border: 1px solid black;
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/*grids to edit page*/
+
+.item1 {
+    grid-area: questions;
+}
+
+.item2 {
+    grid-area: right;
+}
+
+.item3 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'questions questions questions right right' 'footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+    .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }

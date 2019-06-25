@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<games>
+  <idCounter>101</idCounter>
+  <game id="100" isPub="true" time="ללא הגבלה">
+    <name>חגי ישראל</name>
+    <question id="1" text="מה מבין הבאים הוא לא חלק מארבעת המינים?" trys="1" pic="False" ifwas="false">
+      <Ans cor="false" anstype="txt">ערבה</Ans>
+      <Ans cor="true" anstype="txt">אפרסמון</Ans>
+    </question>
+    <question id="2" text="ארבעת המינים מסמלים את:" trys="1" pic="False" ifwas="false">
+      <Ans cor="false" anstype="txt">העלייה לרגל לבית המקדש בירושלים</Ans>
+      <Ans cor="true" anstype="txt">ארבעה טיפוסים בעם ישראל: הטעם משול לעשיית מצוות, והריח למעשים טובים</Ans>
+      <Ans cor="false" anstype="txt">ארבע האמהות: שרה, רבקה, רחל ולאה</Ans>
+      <Ans cor="false" anstype="txt">ארץ ישראל וצמחייתה.</Ans>
+    </question>
+    <question id="3" text="ה'אושפזין' הוא כינוי ל______" trys="1" pic="False" ifwas="false">
+      <Ans cor="false" anstype="txt">מנהג לעריכת סעודת חג חגיגית בסוכה</Ans>
+      <Ans cor="true" anstype="txt">אבות האומה שעל פי המסורת, מתארחים בסוכה: אברהם, יצחק, יעקב, יוסף, משה, אהרון ודוד</Ans>
+      <Ans cor="false" anstype="txt">כינוי לארבעת המינים: אתרוג, לולב, הדס וערבה, המברכים עליהם בסוכה</Ans>
+      <Ans cor="false" anstype="txt">ירקות מבושלים כמו: דלעת סלק הנאכלים בערב ראש השנה</Ans>
+    </question>
+    <question id="4" text="חוגגים את חג סוכות לזכר:" trys="1" pic="False" ifwas="false">
+      <Ans cor="false" anstype="txt">הסוכות שהקימו העולים לרגל לירושלים</Ans>
+      <Ans cor="true" anstype="txt">הישיבה של בני ישראל בסוכות לאחר יציאתם ממצרים</Ans>
+      <Ans cor="false" anstype="txt">הסוכות שהקימו רועי הצאן בארץ ישראל</Ans>
+    </question>
+  </game>
+  <game id="101" isPub="true" time="20">
+    <name>תיאוריה- לרכב פרטי</name>
+    <question id="1" text="מהי המהירות המרבית המותרת לרכב נוסעים פרטי בדרך מהירה (אם לא הוצב תמרור המורה אחרת)?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">110 קמ"ש</Ans>
+      <Ans cor="false" anstype="txt">90 קמ"ש</Ans>
+      <Ans cor="false" anstype="txt">100 קמ"ש</Ans>
+      <Ans cor="false" anstype="txt">80 קמ"ש</Ans>
+    </question>
+    <question id="2" text="איך משפיעה התנהגותו של הולך הרגל על הנהג באזור הצומת?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">על הנהג לצפות מראש אפשרות של התנהגות מסוכנת של הולך הרגל באזור הצומת</Ans>
+      <Ans cor="false" anstype="txt">הולך הרגל מעסיק את מעבר החצייה זמן רב והוא גורם לעיכובים לתנועה</Ans>
+      <Ans cor="false" anstype="txt">הולך הרגל אינו גורם משמעותי בהשפעה על הנהג</Ans>
+      <Ans cor="false" anstype="txt">הסיבוך העיקרי בצומת נוצר כאשר קיימת הצטופפות של הולכי רגל על המדרכה </Ans>
+    </question>
+    <question id="3" text="האם מותר לעלות על מדרכה ולנסוע בה כדי לעקוף מכשול בדרך?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">לא. אין לנסוע על המדרכה כדי לעקוף מכשול</Ans>
+      <Ans cor="false" anstype="txt">כן. מותר לעלות ולנסוע על המדרכה בנסיעה זהירה מאוד ובהילוך ראשון</Ans>
+      <Ans cor="false" anstype="txt">כן. מותר לעלות ולנסוע על המדרכה, אבל רק לאופנועים</Ans>
+      <Ans cor="false" anstype="txt">כן. מותר לעקוף את המכשול דרך המדרכה, אם הדבר פשוט יותר </Ans>
+    </question>
+    <question id="4" text="מה הן הפעולות שעליך לנקוט לפני ירידה מתוכננת לשול בדרך שאינה עירונית?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">הסתכלות, בעיקר לאחור, איתות במחוון הכיוון והאטה מתונה</Ans>
+      <Ans cor="false" anstype="txt">האטה והפעלה של ארבעת מחווני הכיוון של הרכב</Ans>
+      <Ans cor="false" anstype="txt">חוץ מלאותת ימינה בזמן. לא נחוץ שום דבר נוסף</Ans>
+      <Ans cor="false" anstype="txt">להאט ולהפנות את ההגה לכיוון שול הדרך בזמן קצר ככל האפשר </Ans>
+    </question>
+    <question id="5" text="איזה מבין התמרורים מתאים להגדרה הבאה: מכאן ואילך החנייה מותרת?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="pic">images/1.png</Ans>
+      <Ans cor="false" anstype="pic">images/5.png</Ans>
+      <Ans cor="false" anstype="pic">images/7.png</Ans>
+      <Ans cor="false" anstype="pic">images/6.png</Ans>
+    </question>
+    <question id="6" text="מה פירוש התמרור? " pic="images/12.png" trys="1" ifwas="false">
+      <Ans cor="false" anstype="txt">סע שמאלה בלבד</Ans>
+      <Ans cor="false" anstype="txt">מותרת פניית פרסה</Ans>
+      <Ans cor="false" anstype="txt">דרך מפותלת</Ans>
+      <Ans cor="true" anstype="txt">עקומה (פנייה) חדה ימינה</Ans>
+    </question>
+    <question id="7" text="אתה נוהג ברכב 3. למי אתה חייב לתת זכות קדימה?" pic="images/2.jpg" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">לרכב הכחול (1)</Ans>
+      <Ans cor="false" anstype="txt">אף לא לאחד: כל היתר צריכים לתת לך (3) זכות קדימה</Ans>
+      <Ans cor="false" anstype="txt">לרכב האדום (2)</Ans>
+      <Ans cor="false" anstype="txt">(1) לרכב האדום (2)ואחר כך לרכב הכחול</Ans>
+    </question>
+    <question id="8" text="איזה תמרור המוצב בדרך מודיע על שינוי במספר הנתיבים בכביש?" pic="False" trys="1" ifwas="false">
+      <Ans cor="false" anstype="pic">images/8.png</Ans>
+      <Ans cor="false" anstype="pic">images/11.png</Ans>
+      <Ans cor="true" anstype="pic">images/10.png</Ans>
+      <Ans cor="false" anstype="pic">images/9.png</Ans>
+    </question>
+    <question id="9" text="איזה רמזור מציין שהרמזור עומד להתחלף לאדום?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">רמזור צהוב מהבהב</Ans>
+      <Ans cor="false" anstype="pic">images/3.png</Ans>
+      <Ans cor="false" anstype="pic">images/4.png</Ans>
+      <Ans cor="false" anstype="txt">רמזור אדום</Ans>
+    </question>
+    <question id="10" text="מה הן הסכנות בנסיעה ברכב שיש בו דליפה ממערכת הפליטה של המנוע?" pic="False" trys="1" ifwas="false">
+      <Ans cor="true" anstype="txt">חדירת גזים שרופים לתא הנוסעים וגרימת ערפול חושים</Ans>
+      <Ans cor="false" anstype="txt">חימום המנוע</Ans>
+      <Ans cor="false" anstype="txt">פגיעה בכלי רכב סמוכים</Ans>
+      <Ans cor="false" anstype="txt">אין סכנה בנסיעה ברכב שיש בו דליפה ממערכת הפליטה</Ans>
+    </question>
+  </game>
+</games>
